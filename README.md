@@ -8,10 +8,10 @@ This is to simulate a real-world case where the service is accepting streaming d
 
 # Technology Stack
 
-**Language**: Python(>= 3.8)
-**Libraries**: Websockets(10.1), Celery(5.2.1)
-**Database**: Redis(6.2)
-**Messaging Queue**: RabbitMQ (3.9.11)
+- **Language**: Python(>= 3.8)
+- **Libraries**: Websockets(10.1), Celery(5.2.1)
+- **Database**: Redis(6.2)
+- **Messaging Queue**: RabbitMQ (3.9.11)
 
 # Prerequisites
 
