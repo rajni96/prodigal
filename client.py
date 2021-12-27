@@ -10,8 +10,6 @@ async def send_data_packets():
         f = open("data_packets.json")
         data_packets = json.load(f)
         for packet in data_packets:
-            # if packet.get("resource_id")==4:
-                # time.sleep(40)
             await websocket.send(json.dumps(packet))
         # Closing file
         f.close()
